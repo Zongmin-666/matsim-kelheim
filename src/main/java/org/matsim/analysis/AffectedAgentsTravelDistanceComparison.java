@@ -21,7 +21,7 @@ import java.util.*;
 public class AffectedAgentsTravelDistanceComparison {
 
 	public static void main(String[] args) throws IOException {
-		// === 1. read network ===
+		// == 1. read network ===
 		Network network = loadNetwork("input/v3.1/kelheim-v3.0-network-with-pt.xml.gz");
 
 		// === 2. Read the list of affected agents ===

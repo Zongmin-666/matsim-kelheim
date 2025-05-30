@@ -13,7 +13,7 @@ import java.util.Set;
 public class DirectlyAffectedAgentsAnalysis {
 
 	public static void main(String[] args) {
-		// 1. Creating an Event Manager
+		// 1. Creating a Event Manager
 		EventsManager eventsManager = EventsUtils.createEventsManager();
 
 		// 2. Create and register handler

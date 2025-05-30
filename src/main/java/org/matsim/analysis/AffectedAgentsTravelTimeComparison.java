@@ -17,7 +17,7 @@ import java.util.*;
 public class AffectedAgentsTravelTimeComparison {
 
 	public static void main(String[] args) throws IOException {
-		// === 1. Read the list of affected agents ===
+		// == 1. Read the list of affected agents ===
 		Set<Id<Person>> affectedPersons = loadAffectedPersons("output/directly_affected_agents.txt");
 
 		// === 2. Read the events before policy ===

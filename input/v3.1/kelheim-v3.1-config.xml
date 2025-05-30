@@ -23,7 +23,7 @@
     </module>
 
     <module name="network">
-        <param name="inputNetworkFile" value="D:\\idea Projects\\matsim-kelheim\\input\\v3.1\\kelheim-v3.0-network-with-pt.xml.gz"/>
+        <param name="inputNetworkFile" value="D:\\idea Projects\\matsim-kelheim\\input\\v3.1\\kelheim-v3.0-network-with-pt.xml.gz"/> //after policy import
         <param name="laneDefinitionsFile" value="null"/>
     </module>
 

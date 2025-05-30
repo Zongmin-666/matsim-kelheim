@@ -19,7 +19,7 @@ public class AffectedAgentsRouteChangeComparison {
 		// === Step 1: Load affected agents ===
 		Set<String> affectedAgentIds = loadAffectedAgents("output/directly_affected_agents.txt");
 
-		// === Step 2: Analyze before policy ===
+		// == Step 2: Analyze before policy ==
 		System.out.println("Analyzing BEFORE policy...");
 		Map<String, List<String>> beforeRoutes = extractRoutes(
 			"output/before-policy-import/before-policy-import-run-id.output_events.xml.gz", affectedAgentIds);
