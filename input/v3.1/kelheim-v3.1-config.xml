@@ -6,10 +6,10 @@
     </module>
 
     <module name="controller">
-        <param name="lastIteration" value="1000"/>
+        <param name="lastIteration" value="70"/>
         <param name="overwriteFiles" value="failIfDirectoryExists"/>
-        <param name="runId" value="kelheim-v3.1-25pct"/>
-        <param name="outputDirectory" value="./output/output-kelheim-v3.1-25pct"/>
+        <param name="runId" value="after-policy-import-run-id"/>
+        <param name="outputDirectory" value="./output/after-policy-import"/>
         <param name="writeEventsInterval" value="100"/>
         <param name="writePlansInterval" value="100"/>
         <param name="enableLinkToLinkRouting" value="false"/>
@@ -23,12 +23,12 @@
     </module>
 
     <module name="network">
-        <param name="inputNetworkFile" value="https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/countries/de/kelheim/kelheim-v3.0/input/kelheim-v3.0-network-with-pt.xml.gz"/>
+        <param name="inputNetworkFile" value="D:\\idea Projects\\matsim-kelheim\\input\\v3.1\\kelheim-v3.0-network-with-pt.xml.gz"/>
         <param name="laneDefinitionsFile" value="null"/>
     </module>
 
     <module name="plans">
-        <param name="inputPlansFile" value="https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/countries/de/kelheim/kelheim-v3.0/input/kelheim-v3.0-25pct-plans.xml.gz"/>
+        <param name="inputPlansFile" value="https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/countries/de/kelheim/kelheim-v3.0/input/kelheim-v3.0-1pct-plans.xml.gz"/>
         <param name="removingUnnecessaryPlanAttributes" value="true"/>
     </module>
 
@@ -195,7 +195,7 @@
                 <param name="monetaryDistanceRate" value="0.0" />
             </parameterset>
             <parameterset type="modeParams" >
-                <param name="constant" value="-0.9059637590522914" />
+                <param name="constant" value="-0.905963759052291" />
                 <param name="dailyMonetaryConstant" value="0.0" />
                 <param name="dailyUtilityConstant" value="0.0" />
                 <param name="marginalUtilityOfDistance_util_m" value="0.0" />

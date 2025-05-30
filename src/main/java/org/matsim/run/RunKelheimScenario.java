@@ -93,7 +93,7 @@ public class RunKelheimScenario extends MATSimApplication {
 	private static final double WEIGHT_7_PASSENGER = 1.;
 	private static final double WEIGHT_8_PASSENGER = 0.;
 	@CommandLine.Mixin
-	private final SampleOptions sample = new SampleOptions(25, 10, 1);
+	private final SampleOptions sample = new SampleOptions(1, 0, 2);
 
 	@CommandLine.Option(names = "--with-drt", defaultValue = "false", description = "enable DRT service")
 	private boolean drt;
